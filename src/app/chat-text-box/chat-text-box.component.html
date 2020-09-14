@@ -1,0 +1,6 @@
+  <form class="" [formGroup]="messageForm" (ngSubmit)="onSubmit()">
+<div class="input-group">
+    <input class="form-control chat-box" type="search" placeholder="" aria-label="Search" formControlName="message">
+    <button [disabled]="!messageForm.valid" class="chat-enter btn btn-primary" type="submit">Enter</button>
+</div>
+  </form>

@@ -1,0 +1,5 @@
+<p *ngFor="let message of chatMessages; let i = index">
+  <app-chat-message [ngClass]="i%2 === 0 ? 'blue' : 'orange'" [message]="message"></app-chat-message>
+</p>
+
+<app-chat-text-box class="chat-text-box"></app-chat-text-box>

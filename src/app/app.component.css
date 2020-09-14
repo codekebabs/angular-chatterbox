@@ -1,0 +1,12 @@
+p {
+  font-family: Lato;
+}
+
+.chat-text-box {
+  position: absolute;
+  bottom: 0px;
+}
+
+.chat-window {
+  position: relative;
+}
